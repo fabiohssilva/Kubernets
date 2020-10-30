@@ -1,0 +1,26 @@
+Criar um pod ou svc:
+	kubectl apply -f .\svc-pod-2.yaml
+	
+Listar todos pods:
+	kubectl get pod
+	
+Listar todos svc:
+	kubectl get svc
+	
+Entrar com Bash em um pod:
+	kubectl exec -it db-noticias -- bash
+	
+Descrever um pod:
+	kubectl describe pod pod-2
+	
+Criar um pod ou svc:
+	kubectl delete -f .\svc-pod-2.yaml
+
+Listar Nodes
+	kubectl get nodes -o wide
+
+Deletar todos os pods:
+	kubectl delete pods --all
+	
+Deletar todos os svc:
+	kubectl delete svc --all
